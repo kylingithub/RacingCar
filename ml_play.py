@@ -26,7 +26,7 @@ class MLPlay:
         if scene_info["status"] != "ALIVE":
             return "RESET"
 
-        return ["SPEED", "MOVE_LEFT"]
+        return ["SPEED"]
 
 
     def reset(self):
